@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>L'hébergement LVM</title>
+	</head>
+		<body>
+	<div id="wrapper">
+			<header><!-- en-tête -->
+				<h1>Le Vieux Moulin</h1>
+			<h2>Chalet en gestion libre 20 personnes</h2>
+			<img src="images/newheaderimg.jpg" alt="montagne" title="La montagne ça vous gagne!" id="header_photo"><!-- image de l'en-tête -->
+			</header><!-- fin en-tête -->
+			
+			<nav><!-- menu de navigation -->
+				<ul>
+					<li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="qui.html">Qui sommes nous?</a></li>
+                    <li><a href="histoire.html">Un peu d'histoire</a></li>
+                    <li><a href="hebergement.html">L'hébergement</a></li>
+					<li><a href="activites.html">Activités à faire</a></li>
+					<li><a href="reservations.html">Réservation</a></li>
+					<li><a href="photos.html">Photos</a></li>
+					<li>Contactez-nous</li>
+                </ul>
+			</nav><!-- fin menu de navigation -->
+				
+				<section id="content"><!-- contenu de la page -->
+					<h2>Vous avez une question? Une suggestion?</h2>
+					<p class="paragraphe">Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais<p>
+					<div>
+						<form action="mailto:levieuxmoulin.chinaillon@gmail.com" method="post" name="contact" id="formulaire">
+
+							<p class="paragraphe1">Nom:
+							<input type="text" name="nom" id="nom"></p>
+							<p class="paragraphe1">Prénom:
+							<input type="text" name="prenom" id="prenom"></p>
+							<p class="paragraphe1">Email:
+							<input type="email" name="email" id="email"></p>
+							<p class="paragraphe1">Votre demande concerne:
+							<select name="demande" id="demande">
+							<option value="reservation">Une réservation
+							<option value="paiement">Un paiement
+							<option value="renseignement">Un renseignement
+							<option value="suggestion">Une suggestion
+							</select><br />
+							<p class="paragraphe1">Votre message:</p>
+
+							<textarea name="message" rows="10" cols="60" id="area"></textarea><p>
+
+							<input type="submit" value="Envoyer" id="bouton">
+						</form>
+					</div>
+				</section><!-- fin contenu de la page -->
+					
+			<footer><!-- pied de page -->
+				<div id="adresse">
+					<p>Lieu dit "La Mulaterie", le Chinaillon<br />
+						74450 Le Grand Bornand<br />
+						Haute-Savoie - France</p>
+					<p><a href="https://fr-fr.facebook.com/"><img src="images/facebook.png" alt="Facebook"/></a>
+					<a href="https://twitter.com/?lang=fr"><img src="images/twitter.png" alt="Twitter"/></a>
+				</div>
+				
+				<div id="assoc">
+					<p>JDB Alpiloisirs<br />
+					Association Loi 1901<p>
+				</div>
+			</footer><!-- fin pied de page -->
+		</div>
+	</body>
+</html>
