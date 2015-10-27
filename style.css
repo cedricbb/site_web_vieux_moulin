@@ -1,0 +1,246 @@
+
+/*header*/
+header h1
+{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+	text-align: center;
+	color: #FFF;
+	font-family: 'lobster';
+}
+header h2
+{
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	float: right;
+	color: #FFF;
+	text-align: right;
+	padding-right: 20px;
+	font-family: 'lobster';
+}
+header
+{
+	border-radius: 10px;
+}
+#header_photo
+{
+	display: inline-block;
+	width: 1280px;
+	height: 200px;
+}
+/*body*/
+#wrapper
+{
+	width: 1280px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 3px solid #49240b;
+	border-radius: 10px;
+	background: #49250b;
+	background: linear-gradient( #4d2a0c, #a68e76);
+	font-family: 'exo2-lightexpanded';
+}
+body
+{
+	background: url("images/background.jpg") fixed;
+	line-height: 1;
+	line-height: 18px;
+}
+nav 
+{
+	display: inline-block;
+	width: 1280px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: -5px;
+}
+nav ul, #sidebar ul
+{
+	list-style-type: none;
+}
+nav li
+{
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #000;
+	background: #49250b;
+	background: linear-gradient( #4d2a0c, #a68e76);
+	font-size: 0.8em;
+	color: #FFF;
+}
+a, a:hover, a:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+section h1, h2, h3
+{
+	text-align: center;
+	color: #FFF;
+	font-family: 'exo2-lightexpanded';
+}
+#photo
+{
+	border: 2px solid black;
+	border-radius: 10px;
+	border: 2px solid #49250b;
+	box-shadow: 3px 3px 5px #49250b;
+	text-align: center;
+}
+#p_photo
+{
+	text-align: center;
+}
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+article
+{
+    width: 625px;
+    margin-right: 15px;
+	margin-left: 20px;
+	color: #FFF;
+	font-size: 0.9em;
+}
+aside
+{
+    position: relative;
+    width: 400px;
+    padding-left: 10px;
+    color: white;
+    font-size: 0.9em;
+	margin-left: 50px;
+	margin: 0 auto;
+	border-left:2px solid #49250b;
+}
+.inconnu_1
+{
+	margin-right: 15px;
+	width: 50px;
+	height: 50px;
+}
+#map
+{
+	width: 270px;
+	height: 270px;
+	border: 2px solid #49250b;
+}
+#pistes
+{
+	border: 2px solid #49250b;
+	border-radius: 10px;
+}
+#old
+{
+	width: 350px;
+	height:  250px;
+	border: 2px solid #49250b;
+	border-radius: 10px;
+}
+.paragraphe
+{
+	color: #FFF;
+	text-align: center;
+	font-size: 0.9em;
+}
+#table
+{
+	text-align: center;
+	width: 540px;
+	border-collapse: collapse;
+	margin: 0 auto;
+	background: #49250b;
+	background: linear-gradient( #4d2a0c, #a68e76);
+	border-radius: 10px;
+}
+#calendar
+{
+	height: 875px;
+	width: 540px;
+	background: #49240b;
+	background: linear-gradient( #4d2a0c, #a68e76);
+	border: 2px solid #49250b;
+	border-radius: 10px;
+}
+#formulaire
+{
+	background: #49240b;
+	background: linear-gradient( #4d2a0c, #a68e76);
+	border: 2px solid #49250b;
+	border-radius: 10px;
+	padding-left: 10px;
+	text-align: justify;
+	width: 550px;
+}
+#bouton
+{
+	background: #49240b;
+	background: linear-gradient( #4d2a0c, #a68e76);
+	border: 2px solid #49250b;
+	border-radius: 10px;
+	color: white;
+	height: 30px;
+	width: 80px;
+}
+.paragraphe1
+{
+	color: #FFF;
+}
+#nom, #prenom, #email, #demande, #area
+{
+	border-radius: 10px;
+}
+/*footer*/
+#adresse
+{
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: #FFF;
+	font-family: 'exo2-lightexpanded';
+}
+#assoc
+{
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: #FFF;
+	font-family: 'exo2-lightexpanded';
+}
+
+footer
+{
+	border-top: 2px solid #49250b;
+}
+span
+{
+	text-decoration: underline;
+}
+
+/*font-face*/
+
+@font-face
+{
+font-family : 'Lobster';
+src : url('fonts/lobster.eot');
+src : url('fonts/lobster.ttf') format('truetype'), url('fonts/lobster.woff') format('woff'), url('fonts/Lobster.otf') format('opentype'), url('fonts/lobster.svg#Lobster') format('svg');
+}
+@font-face /* Définition d'une nouvelle police nommée Exo2 LightExpended */
+{ 
+    font-family : 'exo2-lightexpanded';
+	src : url('fonts/exo2-lightexpanded.eot');
+	src : url('fonts/exo2-lightexpanded.ttf') format('truetype'), 
+	url('fonts/exo2-lightexpanded.woff') format('woff'), 
+	url('fonts/Exo2-LightExpanded.otf') format('opentype'), 
+	url('fonts/exo2-lightexpanded.svg#Exo2-LightExpanded') format('svg');
+}
+
