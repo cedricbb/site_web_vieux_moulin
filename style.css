@@ -207,6 +207,8 @@ aside
 	margin-bottom: 10px;
 	color: #FFF;
 	font-family: 'exo2-lightexpanded';
+    display: inline-block;
+    float: right;
 }
 #assoc
 {
@@ -215,8 +217,16 @@ aside
 	margin-bottom: 10px;
 	color: #FFF;
 	font-family: 'exo2-lightexpanded';
+    display: inline-block;
 }
-
+li
+{
+    color: #FFF;
+    font-family: 'exo2-lightexpanded';
+    font-size: 0.9em;
+    width: 1000px;
+}
+/* Footer */
 footer
 {
 	border-top: 2px solid #49250b;
@@ -225,7 +235,30 @@ span
 {
 	text-decoration: underline;
 }
-
+#logo
+{
+    width: 170px;
+    height: 70px;
+}
+.activites
+{
+    width: 500px;
+}
+h4
+{
+	color: #FFF;
+	font-family: 'exo2-lightexpanded';
+    margin-left: 20px;
+}
+.mini
+{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    float: left;
+}
 /*font-face*/
 
 @font-face
