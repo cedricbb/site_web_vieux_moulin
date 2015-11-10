@@ -199,6 +199,40 @@ aside
 {
 	border-radius: 10px;
 }
+li
+{
+    color: #FFF;
+    font-family: 'exo2-lightexpanded';
+    font-size: 0.9em;
+    width: 1000px;
+}
+.activites
+{
+    width: 500px;
+}
+h4
+{
+	color: #FFF;
+	font-family: 'exo2-lightexpanded';
+    margin-left: 20px;
+}
+.mini
+{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+#evenements
+{
+    font-size: 1em;
+    border-left: none;
+}
+#station_article
+{
+    width: 1000px;
+}
 /*footer*/
 #adresse
 {
@@ -219,14 +253,6 @@ aside
 	font-family: 'exo2-lightexpanded';
     display: inline-block;
 }
-li
-{
-    color: #FFF;
-    font-family: 'exo2-lightexpanded';
-    font-size: 0.9em;
-    width: 1000px;
-}
-/* Footer */
 footer
 {
 	border-top: 2px solid #49250b;
@@ -240,25 +266,7 @@ span
     width: 170px;
     height: 70px;
 }
-.activites
-{
-    width: 500px;
-}
-h4
-{
-	color: #FFF;
-	font-family: 'exo2-lightexpanded';
-    margin-left: 20px;
-}
-.mini
-{
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-    vertical-align: middle;
-    text-align: center;
-    float: left;
-}
+
 /*font-face*/
 
 @font-face
