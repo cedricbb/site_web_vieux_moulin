@@ -33,22 +33,22 @@
 					<div>
 						<form action="mailto:levieuxmoulin.chinaillon@gmail.com" method="post" name="contact" id="formulaire">
 
-							<p class="paragraphe1">Nom:
-							<input type="text" name="nom" id="nom"></p>
-							<p class="paragraphe1">Prénom:
-							<input type="text" name="prenom" id="prenom"></p>
-							<p class="paragraphe1">Email:
-							<input type="email" name="email" id="email"></p>
-							<p class="paragraphe1">Votre demande concerne:
-							<select name="demande" id="demande">
+                            <label>Nom:</label>
+							<input type="text" name="nom" id="nom" required>
+                            <label>Prénom:</label>
+							<input type="text" name="prenom" id="prenom" required>
+                            <label>Email:</label>
+							<input type="email" name="email" id="email" required>
+                            <label>Votre demande concerne:</label>
+							<select name="demande" id="demande" required>
 							<option value="reservation">Une réservation
 							<option value="paiement">Un paiement
 							<option value="renseignement">Un renseignement
 							<option value="suggestion">Une suggestion
 							</select><br />
-							<p class="paragraphe1">Votre message:</p>
+                            <label>Votre message:</label>
 
-							<textarea name="message" rows="10" cols="60" id="area"></textarea><p>
+							<textarea name="message" rows="10" cols="60" id="area" required></textarea><br/>
 
 							<input type="submit" value="Envoyer" id="bouton">
 						</form>
