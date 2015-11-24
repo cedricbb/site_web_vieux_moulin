@@ -1,81 +1,75 @@
 <!DOCTYPE html>
 
 <html>
+    
 	<head>
+        
 		<meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
-        <title>L'hébergement LVM</title>
+        <title>Photos LVM</title>
+        
 	</head>
-		<body>
-	<div id="wrapper">
-			<header><!-- en-tête -->
-				<h1>Le Vieux Moulin</h1>
-			<h2>Chalet en gestion libre 21 personnes</h2>
-			<img src="images/newheaderimg.jpg" alt="montagne" title="La montagne ça vous gagne!" id="header_photo"><!-- image de l'en-tête -->
-			</header><!-- fin en-tête -->
+    
+    <body>
+            
+	   <div id="wrapper">
+           
+			<?php include("header.php") ?>
 			
-			<nav><!-- menu de navigation -->
-				<ul>
-					<li><a href="accueil.html">Accueil</a></li>
-                    <li><a href="qui.html">Qui sommes nous?</a></li>
-                    <li>L'hébergement</li>
-					<li><a href="activites.html">Activités à faire</a></li>
-                    <li><a href="station.html">La Station</a></li>
-					<li><a href="reservations.html">Réservation</a></li>
-					<li><a href="photos.html">Photos</a></li>
-					<li><a href="contact.html">Contactez-nous</a></li>
-                </ul>
-			</nav><!-- fin menu de navigation -->
+			<?php include("menu.php") ?>
 				
 				<section id="content"><!-- contenu de la page -->
-					<h2>Un peu d'architecture.</h2>
-					<p class="paragraphe">Vous n'avez peut-être pas fait d'études d'architecte, mais je vous rassure pas besoin d'âtre un pro, ci-dessous vous pouvez admirer les plans d'agencement du chalet.<p>
-					<article>
-					<h3>Plans actuels:</h3>
-					<p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
+                    
+					<h2>Quelques photos.</h2>
+                    
+					<p class="paragraphe">Voici quelques photos du chalet extérieur et intérieur, ainsi que des photos de soirées passées là-haut.<p>
+                    
+					   <article>
+                           
+					       <h3>Photos du chalet:</h3>
+                           
+					       <p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
 							Quand vous cliquez sur Vidéo en ligne, vous pouvez coller le code incorporé de la vidéo que vous souhaitez ajouter. 
 							Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre document. 
 							Pour donner un aspect professionnel à votre document, Word offre des conceptions d’en-tête, de pied de page, 
 							de page de garde et de zone de texte qui se complètent mutuellement. Vous pouvez pas exemple ajouter une page de garde, 
 							un en-tête et une barre latérale identiques.</p>
-					<p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
+                           
+					       <p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
 							Quand vous cliquez sur Vidéo en ligne, vous pouvez coller le code incorporé de la vidéo que vous souhaitez ajouter. 
 							Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre document. 
 							Pour donner un aspect professionnel à votre document, Word offre des conceptions d’en-tête, de pied de page, 
 							de page de garde et de zone de texte qui se complètent mutuellement. Vous pouvez pas exemple ajouter une page de garde, 
 							un en-tête et une barre latérale identiques.</p>
-					</article>
-					<aside>
-					<h3>Futurs plans:</h3>
-					<p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
+                           
+					   </article>
+                    
+					   <aside>
+                           
+					       <h3>Photos des soirées</h3>
+                           
+					       <p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
 							Quand vous cliquez sur Vidéo en ligne, vous pouvez coller le code incorporé de la vidéo que vous souhaitez ajouter. 
 							Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre document. 
 							Pour donner un aspect professionnel à votre document, Word offre des conceptions d’en-tête, de pied de page, 
 							de page de garde et de zone de texte qui se complètent mutuellement. Vous pouvez pas exemple ajouter une page de garde, 
 							un en-tête et une barre latérale identiques.</p>
-					<p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
+                           
+					       <p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
 							Quand vous cliquez sur Vidéo en ligne, vous pouvez coller le code incorporé de la vidéo que vous souhaitez ajouter. 
 							Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre document. 
 							Pour donner un aspect professionnel à votre document, Word offre des conceptions d’en-tête, de pied de page, 
 							de page de garde et de zone de texte qui se complètent mutuellement. Vous pouvez pas exemple ajouter une page de garde, 
 							un en-tête et une barre latérale identiques.</p>
-					</aside>
+                           
+					   </aside>
+                    
 				</section><!-- fin contenu de la page -->
 					
-			<footer><!-- pied de page -->
-				<div id="adresse">
-					<p>Lieu dit "La Mulaterie", le Chinaillon<br />
-						74450 Le Grand Bornand<br />
-						Haute-Savoie - France</p>
-					<p><a href="https://www.facebook.com/Le-Vieux-Moulin-du-Chinaillon-114559925267364/?ref=bookmarks/"><img src="images/facebook.png"                         alt="Facebook"/></a>
-				</div>
-				
-				<div id="assoc">
-                    <img src="images/logo_jdb.gif" alt="logo" title="logo" id="logo"/>
-					<p>JDB Alpiloisirs<br />
-					Association Loi 1901<p>
-				</div>
-			</footer><!-- fin pied de page -->
+			<?php include("footer.php") ?>
+           
 		</div>
+        
 	</body>
+    
 </html>

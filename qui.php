@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 
 <html>
+    
 	<head>
+        
 		<meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
         <title>Qui Sommes Nous? LVM</title>
+        
 	</head>
-		<body>
-	<div id="wrapper">
-			<header><!-- en-tête -->
-				<h1>Le Vieux Moulin</h1>
-			<h2>Chalet en gestion libre 21 personnes</h2>
-			<img src="images/newheaderimg.jpg" alt="montagne" title="La montagne ça vous gagne!" id="header_photo"><!-- image de l'en-tête -->
-			</header><!-- fin en-tête -->
+    
+    <body>
+        
+        <div id="wrapper">
+            
+			<?php include("header.php") ?>
 			
-			<nav><!-- menu de navigation -->
-				<ul>
-					<li><a href="accueil.html">Accueil</a></li>
-                    <li>Qui sommes nous?</li>
-                    <li><a href="hebergement.html">L'hébergement</a>
-					<li><a href="activites.html">Activités à faire</a></li>
-                    <li><a href="station.html">La Station</a></li>
-					<li><a href="reservations.html">Réservation</a></li>
-					<li><a href="photos.html">Photos</a></li>
-					<li><a href="contact.html">Contactez-nous</a></li>
-                </ul>
-			</nav><!-- fin menu de navigation -->
+			<?php include("menu.php") ?>
 				
 					<section id="content"><!-- #main content and sidebar -->
+                        
 						<h2>L'association JDB: "Jeunes des Brotteaux"</h2>
+                        
 						<article>
+                            
 							<h3>Au commencement,</h3>
+                            
 							<p>Les vidéos vous permettent de faire passer votre message de façon convaincante. 
 							Quand vous cliquez sur Vidéo en ligne, vous pouvez coller le code incorporé de la vidéo que vous souhaitez ajouter. 
 							Vous pouvez également taper un mot-clé pour rechercher en ligne la vidéo qui convient le mieux à votre document. 
@@ -52,34 +47,29 @@
 							Vous pouvez réduire certaines parties du document et vous concentrer sur le texte désiré. 
 							Si vous devez stopper la lecture avant d’atteindre la fin de votre document, Word garde en mémoire l’endroit où vous avez arrêté la lecture, 
 							même sur un autre appareil.<p>
+                            
 						</article>
+                        
 						<aside id="sidebar"><!-- sidebar -->
-							<h3>Organigramme:</h3>
-							<ul>
-								<li><img src="images/inconnu.png" alt="inconnu" class="inconnu_1"/>John Doe: Webmaster</li>
-								<li><img src="images/inconnu.png" alt="inconnu" class="inconnu_1"/>Sarah Doe: Gestionnaire de projet</li>
-								<li><img src="images/inconnu.png" alt="inconnu" class="inconnu_1"/>Luc Doe: Trésorier</li>
-								<li><img src="images/inconnu.png" alt="inconnu" class="inconnu_1"/>Cole Doe: Architecte</li>
-								<li><img src="images/inconnu.png" alt="inconnu" class="inconnu_1"/>Jane Doe: Intendante</li>
-								<li><img src="images/inconnu.png" alt="inconnu" class="inconnu_1"/>Paul Doe: Je sais pas</li>
-								</ul>
+                            
+							<h3>Histoire du "Vieux Moulin":</h3>
+                            
+                            <p>Si vous souhaitez modifier la façon dont une image s’ajuste à votre document, 
+							cliquez sur celle-ci pour qu’un bouton d’options de disposition apparaisse en regard de celle-ci. 
+							Quand vous travaillez sur un tableau, cliquez à l’emplacement où vous souhaitez ajouter une ligne ou une colonne, 
+							puis cliquez sur le signe plus. La lecture est également simplifiée grâce au nouveau mode Lecture. 
+							Vous pouvez réduire certaines parties du document et vous concentrer sur le texte désiré. 
+							Si vous devez stopper la lecture avant d’atteindre la fin de votre document, Word garde en mémoire l’endroit où vous avez arrêté la lecture, 
+							même sur un autre appareil.<p>
+                            
 						</aside><!-- end of sidebar -->
+                        
 					</section><!-- end of #main content and sidebar-->
 				
-			<footer><!-- pied de page -->
-				<div id="adresse">
-					<p>Lieu dit "La Mulaterie", le Chinaillon<br />
-						74450 Le Grand Bornand<br />
-						Haute-Savoie - France</p>
-					<p><a href="https://www.facebook.com/Le-Vieux-Moulin-du-Chinaillon-114559925267364/?ref=bookmarks/"><img src="images/facebook.png"                         alt="Facebook"/></a>
-				</div>
-				
-				<div id="assoc">
-                    <img src="images/logo_jdb.gif" alt="logo" title="logo" id="logo"/>
-					<p>JDB Alpiloisirs<br />
-					Association Loi 1901<p>
-				</div>
-			</footer><!-- fin pied de page -->
+			<?php include("footer.php") ?>
+            
 		</div>
+        
 	</body>
+    
 </html>
