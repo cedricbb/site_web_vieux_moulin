@@ -236,6 +236,16 @@ h4
 {
     width: 1000px;
 }
+input
+{
+    display: block;
+}
+input[type=text], input[type=email], textarea, option
+{
+    display: block;
+    padding: 4px;
+    width: 200px;
+}
 
 
 
