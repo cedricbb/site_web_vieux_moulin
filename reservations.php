@@ -49,13 +49,19 @@
                         
                             <h4>Haute Saison:</h4>
                         
-                            <p>Prix à la semaine: de 2400 € à 2950 €<br />
-                                Prix au week-end: de 750 € à 850 €</p>
+                            <p>Semaine vacances scolaires: 2950 € <br />
+                                Semaine hors vacances scolaires: 2400 € <br />
+                                Week-end, arrivée vendredi: 850€ <br />
+                                Week-end, arrivée samedi: 750 €
+                            </p>
                         
                             <h4>Basse saison:</h4>
                         
-                            <p>Prix à la semaine: de 1200 € à 1600 €<br />
-							Prix au week-end: de 400 € à 500 €</p>
+                            <p>Semaine vacances scolaires: 1600 € <br />
+                                Semaine hors vacances scolaires: 1200 € <br />
+                                Week-end, arrivée vendredi: 500 € <br />
+                                Week-end, arrivée samedi: 400 €
+                            </p>
                         
                             <h4>Option ménage:</h4>
             
