@@ -25,21 +25,21 @@
                     
 					<div>
                         
-						<form action="mailto:levieuxmoulin.chinaillon@gmail.com" method="post" name="contact" id="formulaire">
+						<form action="message_sent.php" method="post" name="contact" id="formulaire">
 
-                            <label>Nom:</label>
+                            <label for="nom">Nom</label>
                             
 							     <input type="text" name="nom" id="nom" required>
                             
-                            <label>Prénom:</label>
+                            <label for="prenom">Prénom</label>
                             
 							     <input type="text" name="prenom" id="prenom" required>
                             
-                            <label>Email:</label>
+                            <label for="email">Email</label>
                             
 							     <input type="email" name="email" id="email" required>
                             
-                            <label>Votre demande concerne:</label>
+                            <label for="demande">Votre demande concerne</label>
                             
 							     <select name="demande" id="demande">
                                 
@@ -53,7 +53,7 @@
                                 
 							     </select><br />
                             
-                            <label>Votre message:</label>
+                            <label for="message">Votre message:</label>
 
 							     <textarea name="message" rows="10" cols="60" id="area" required></textarea><br/>
 
