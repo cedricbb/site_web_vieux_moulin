@@ -246,7 +246,14 @@ input[type=text], input[type=email], textarea, option
     padding: 4px;
     width: 200px;
 }
-
+#lien
+{
+    text-decoration: underline;
+}
+#lien_calendar
+{
+    text-decoration: underline;
+}
 
 
 /*footer*/
@@ -273,9 +280,9 @@ footer
 {
 	border-top: 2px solid #49250b;
 }
-span
+#texte
 {
-	text-decoration: underline;
+	font-weight: 8px;
 }
 #logo
 {

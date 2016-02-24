@@ -12,8 +12,13 @@
             <div id="adresse">
 				<p>Lieu dit "La Mulaterie", le Chinaillon<br />
 				74450 Le Grand Bornand<br />
-				Haute-Savoie - France</p>
+                    Haute-Savoie - France.<br />
+                Cliquez sur le téléphone pour voir le numéro.</p>
+                
 				<p><a href="https://www.facebook.com/Le-Vieux-Moulin-du-Chinaillon-114559925267364/?ref=bookmarks/"><img src="images/facebook.png"                         alt="Facebook"/></a>
+                   <img src="images/telephone.jpg" onClick='alert("06 66 27 65 96")' title="Téléphone" alt="Téléphone"/>
+                </p>
+                
             </div>
 				
             <div id="assoc">

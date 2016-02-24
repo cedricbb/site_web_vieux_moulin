@@ -11,38 +11,43 @@
     <body>
         <div id="wrapper">
            <?php include("header.php") ?>
-			
+            
            <?php include("menu.php") ?>
             
             <section id="content"><!-- contenu de la page -->
+            
                 <div>
-                    <?php
-
-                    if (isset($_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['email'], $_POST['message']))
-                        {
-                           $headers = 'From: '. $_POST['nom'] . '\r\n' . 'Reply-To: ' . $_POST['email'] . '\r\n' . 'X-Mailer: PHP/' . phpversion();
-                           mail('levieuxmoulin.chinaillon@gmail.com', $_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['message'])
-
-
-                        ?>
-
-                        <h3>Merci de nous avoir contacté, nous vous répondront dans les plus brefs délais.</h3>
-
-                        <?php
-                        }   
-                        else
-                        {
-
-                        ?>
-
-                        <h3>Il manque des informations, veuillez recommencer</h3>
-
-                        <?php
-
-                        }
-
-                        ?>
-                </div>
+					<?php
+					   require("PHPMailer/class.phpmailer.php"); // path to the PHPMailerAutoload.php file.
+					 
+					   $mail = new PHPMailer();
+					   $mail->IsSMTP();
+					   $mail->Mailer = "smtp.free.fr";
+					   $mail->Host = "www.free.fr";
+					   $mail->Port = "25"; // 8025, 587 and 25 can also be used. Use Port 465 for SSL.
+					   $mail->SMTPAuth = true;
+					   $mail->SMTPSecure = '';
+					   $mail->Username = "vieux.moulin";
+					   $mail->Password = "yass11";
+					    
+					   $mail->From     = $_POST['email'];
+					   $mail->FromName = $_POST['nom'];
+					   $mail->AddAddress("levieuxmoulin.chinaillon@gmail.com");
+					   $mail->AddReplyTo($_POST['email']);
+					 
+					   $mail->Subject  = $_POST['demande'];
+					   $mail->Body     = $_POST['message'];
+					   $mail->WordWrap = 50;  
+					 
+					   if(!$mail->Send()) {
+							echo 'Message was not sent.';
+							echo 'Mailer error: ' . $mail->ErrorInfo;
+							exit;
+					   } else {
+							echo 'Message has been sent.';
+					   }
+					?>
+				</div>
                 
             </section><!-- fin contenu de la page -->
             
@@ -53,3 +58,7 @@
     </body>
     
 </html>
+
+
+
+

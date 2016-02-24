@@ -13,11 +13,11 @@
                 <li><a href="index.php">Accueil</a></li>
                 <li>Qui sommes nous?</li>
                 <li>L'hébergement</li>
-				<li><a href="activites.html">Activités à faire</a></li>
-                <li><a href="station.html">La Station</a></li>
-				<li><a href="reservations.html">Réservation</a></li>
-				<li>Photos</li>
-				<li><a href="contact.html">Contactez-nous</a></li>
+				<li><a href="activites.php">Activités</a></li>
+                <li><a href="station.php">La Station</a></li>
+				<li><a href="reservations.php">Réservation</a></li>
+                <li><a href="photos.php">Photos</a></li>
+				<li><a href="contact.php">Contactez-nous</a></li>
             </ul>
         </nav><!-- fin menu de navigation -->  
     </body>

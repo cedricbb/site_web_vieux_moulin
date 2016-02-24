@@ -26,22 +26,8 @@
                         
 					   <h3>Disponibilités du chalet:</h3>
                         
-					   <table id="table">
-                           
-					       <tr>
-                        
-						      <td>
-                            
-							     <iframe src="http://www.shared-house.com/vacancy_planning.php?numero=54343&langue=fr&style=2&embed=c83693d277ad5fe8218d056057e7305b" id="calendar">
-							     </iframe>
-                            
-						      </td>	
-                        
-					       </tr>	
-                           
-					   </table>
-                        
-					</article>
+                        <p>Si vous voulez voir les disponibilités du chalet ainsi que faire une réservation, merci de cliquer ici <span><a href="http://www.legrandbornand-reservation.com/le-vieux-moulin-chalet-en-gestion-libre-pour-21-personnes.html" id="lien_calendar">http://www.legrandbornand-reservation.com/le-vieux-moulin-chalet-en-gestion-libre-pour-21-personnes.html</a></span>.
+					   Déscendez en bas de la page pour voir le calendrier.
                     
 					<aside>
                         

@@ -26,11 +26,21 @@
                         
 					   <h3>Dernières actualitées:</h3>
                         
+                        <p>Météo:</p>
+                        
+                        <div id="cont_NzQxMzZ8NXwzfDF8NHw0ZDJhMGN8MXxGRkZGRkZ8Y3wx">
+                            <div id="spa_NzQxMzZ8NXwzfDF8NHw0ZDJhMGN8MXxGRkZGRkZ8Y3wx">
+                                <a id="a_NzQxMzZ8NXwzfDF8NHw0ZDJhMGN8MXxGRkZGRkZ8Y3wx" href="http://www.meteocity.com/france/le-grand-bornand_v74136/" rel="nofollow" target="_blank" style="color:#333;text-decoration:none;">Météo Le Grand-Bornand</a> 
+                                © meteocity.com</div>
+                            <script type="text/javascript" src="http://widget.meteocity.com/js/NzQxMzZ8NXwzfDF8NHw0ZDJhMGN8MXxGRkZGRkZ8Y3wx">
+                            </script>
+                        </div>
+                        
 					   <p><span>Octobre 2015:</span><br /><br />
 					   Le site internet du "Vieux Moulin" fait peau neuve.</p>
                         
 					   <p><span>Janvier à Septembre 2015:</span><br /><br />
-					   Des travaux d'agrandissement et d'embelissement ont étés décidés.</p>
+					   Des travaux d'agrandissement et d'embellissement ont été décidés.</p>
                         
 					</article>
                     

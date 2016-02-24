@@ -62,6 +62,8 @@
 						</form>
                         
 					</div>
+
+					<p class="paragraphe">Si vous préférez nous appeler, cliquez sur le téléphone en bas de page.</p>
                     
 				</section><!-- fin contenu de la page -->
 					

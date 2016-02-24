@@ -21,7 +21,7 @@
                     
 					<h2>Un peu d'architecture.</h2>
                     
-					<p class="paragraphe">Vous n'avez peut-être pas fait d'études d'architecte, mais je vous rassure pas besoin d'âtre un pro, ci-dessous vous pouvez admirer les plans d'agencement du chalet.<p>
+					<p class="paragraphe">Vous n'avez peut-être pas fait d'études d'architecte, mais je vous rassure pas besoin d'être un pro, ci-dessous vous pouvez admirer les plans d'agencement du chalet.<p>
                     
 					<article>
                         
